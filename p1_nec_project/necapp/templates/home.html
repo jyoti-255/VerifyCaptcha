@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jyoti Jha</title>
+    <style>
+        * {
+            font-size: 2.5vw;
+            font-family: Cambria;
+        }
+        body {
+            background-color: azure;
+        }
+        .errorlist {
+            color: red;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <center>
+        <h1>Fill the Form</h1>
+        <form method="POST">
+            {% csrf_token %}
+            <table>
+                {{ form.as_table }}
+            </table>
+            <input type="submit" value="Submit"/>
+        </form>
+        <h2>{{ msg }}</h2>
+    </center>
+</body>
+</html>
