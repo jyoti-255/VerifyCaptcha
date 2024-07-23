@@ -5,7 +5,9 @@ Welcome to the **Captcha Verification App**! 🎉 This app allows users to secur
 ## 📝 Usage
 
 1.Enter your name and email in the provided fields.
+
 2.Solve the CAPTCHA to confirm you're not a robot 🤖.
+
 3.Submit the form to complete the verification ✅.
 
 
